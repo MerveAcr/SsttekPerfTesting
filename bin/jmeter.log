@@ -1,0 +1,1628 @@
+2023-05-04 14:07:50,111 INFO o.a.j.u.JMeterUtils: Setting Locale to tr_TR
+2023-05-04 14:07:50,433 INFO o.a.j.u.JMeterUtils: Could not find resources for 'tr_TR', using 'tr'
+2023-05-04 14:07:50,436 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-05-04 14:07:50,438 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-05-04 14:07:50,532 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-05-04 14:07:50,532 INFO o.a.j.JMeter: Version 5.5
+2023-05-04 14:07:50,533 INFO o.a.j.JMeter: java.version=11.0.17
+2023-05-04 14:07:50,533 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-05-04 14:07:50,534 INFO o.a.j.JMeter: os.name=Windows 10
+2023-05-04 14:07:50,534 INFO o.a.j.JMeter: os.arch=amd64
+2023-05-04 14:07:50,534 INFO o.a.j.JMeter: os.version=10.0
+2023-05-04 14:07:50,535 INFO o.a.j.JMeter: file.encoding=Cp1254
+2023-05-04 14:07:50,536 INFO o.a.j.JMeter: java.awt.headless=null
+2023-05-04 14:07:50,538 INFO o.a.j.JMeter: Max memory     =2111832064
+2023-05-04 14:07:50,538 INFO o.a.j.JMeter: Available Processors =4
+2023-05-04 14:07:50,666 INFO o.a.j.JMeter: Default Locale=Türkçe (Türkiye)
+2023-05-04 14:07:50,672 INFO o.a.j.JMeter: JMeter  Locale=Türkçe (Türkiye)
+2023-05-04 14:07:50,673 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\apache-jmeter-5.5
+2023-05-04 14:07:50,673 INFO o.a.j.JMeter: user.dir  =C:\Program Files\apache-jmeter-5.5\bin
+2023-05-04 14:07:50,674 INFO o.a.j.JMeter: PWD       =C:\Program Files\apache-jmeter-5.5\bin
+2023-05-04 14:07:50,676 INFO o.a.j.JMeter: IP: 192.168.233.1 Name: LAPTOP-6RU62DR5 FullName: LAPTOP-6RU62DR5
+2023-05-04 14:07:50,822 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-05-04 14:07:52,425 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2023-05-04 14:09:25,503 INFO o.a.j.s.FileServer: Default base='C:\Program Files\apache-jmeter-5.5\bin'
+2023-05-04 14:09:25,524 INFO o.a.j.g.a.Load: Loading file: C:\Program Files\apache-jmeter-5.5\bin\ebayPerfTestingScenarios\ebay-load-test.jmx
+2023-05-04 14:09:25,525 INFO o.a.j.s.FileServer: Set new base='C:\Program Files\apache-jmeter-5.5\bin\ebayPerfTestingScenarios'
+2023-05-04 14:09:26,315 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-05-04 14:09:26,402 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-05-04 14:09:26,408 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-05-04 14:09:26,416 INFO o.a.j.s.SaveService: Loading file: C:\Program Files\apache-jmeter-5.5\bin\ebayPerfTestingScenarios\ebay-load-test.jmx
+2023-05-04 14:09:26,527 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2023-05-04 14:09:26,536 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2023-05-04 14:09:26,557 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-04 14:09:26,558 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-04 14:09:26,558 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-04 14:09:26,559 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-04 14:09:26,559 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-05-04 14:09:26,559 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-05-04 14:09:30,018 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-05-04 14:09:30,019 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-05-04 14:09:30,019 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-05-04 14:09:30,020 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-05-04 14:09:31,297 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-05-04 14:09:31,959 INFO o.a.j.s.FileServer: Set new base='C:\Program Files\apache-jmeter-5.5\bin\ebayPerfTestingScenarios'
+2023-05-04 14:09:53,727 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-05-04 14:09:53,730 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-04 14:09:53,730 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-04 14:09:53,733 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-05-04 14:09:53,733 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-05-04 14:09:55,066 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-05-04 14:09:55,663 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Home Page, Home & Garden Page, Clock Page, Item Detail Page, Add to Watchlisht Function
+2023-05-04 14:09:55,745 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Home Page, Home & Garden Page, Clock Page, Item Detail Page, Add to Watchlisht Function.
+2023-05-04 14:09:55,745 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-05-04 14:09:55,745 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=1 delayedStart=false
+2023-05-04 14:09:55,854 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-05-04 14:09:55,855 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-05-04 14:09:56,071 INFO o.a.j.t.JMeterThread: Thread started: Home Page, Home & Garden Page, Clock Page, Item Detail Page, Add to Watchlisht Function 1-1
+2023-05-04 14:09:56,147 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-6RU62DR5
+2023-05-04 14:09:56,168 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-05-04 14:09:56,250 INFO o.a.j.t.JMeterThread: Thread started: Home Page, Home & Garden Page, Clock Page, Item Detail Page, Add to Watchlisht Function 1-2
+2023-05-04 14:09:56,422 INFO o.a.j.t.JMeterThread: Thread started: Home Page, Home & Garden Page, Clock Page, Item Detail Page, Add to Watchlisht Function 1-3
+2023-05-04 14:09:56,576 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-05-04 14:09:56,590 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-05-04 14:09:56,591 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-05-04 14:09:56,593 INFO o.a.j.t.JMeterThread: Thread started: Home Page, Home & Garden Page, Clock Page, Item Detail Page, Add to Watchlisht Function 1-4
+2023-05-04 14:09:56,815 INFO o.a.j.t.JMeterThread: Thread started: Home Page, Home & Garden Page, Clock Page, Item Detail Page, Add to Watchlisht Function 1-5
+2023-05-04 14:09:56,910 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-05-04 14:09:56,921 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-05-04 14:09:56,921 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-05-04 14:09:59,860 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-04 14:10:00,321 INFO o.a.j.p.h.s.ResourcesDownloader: Creating ResourcesDownloader with keepalive_inseconds : 60
+2023-05-04 14:10:01,968 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2023-05-04 14:10:01,968 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2023-05-04 14:10:01,968 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2023-05-04 14:10:02,142 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2023-05-04 14:10:01,968 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2023-05-04 14:10:02,200 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2023-05-04 14:10:03,279 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:25] Deprecated property name '*z-index'
+2023-05-04 14:10:04,145 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:750] Deprecated property name '*width'
+2023-05-04 14:10:04,154 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:1234] Deprecated property name '*zoom'
+2023-05-04 14:10:04,155 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:1349] Deprecated property name '*margin-top'
+2023-05-04 14:10:04,155 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:1386] Deprecated property name '*vertical-align'
+2023-05-04 14:10:04,155 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:1406] Deprecated property name '*line-height'
+2023-05-04 14:10:04,253 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:3923] Deprecated property name '*display'
+2023-05-04 14:10:04,293 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:4060] Deprecated property name '*margin-top'
+2023-05-04 14:10:04,294 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:4155] Deprecated property name '*margin-top'
+2023-05-04 14:10:04,294 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:4172] Deprecated property name '*vertical-align'
+2023-05-04 14:10:04,313 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:5656] Deprecated property name '*text-indent'
+2023-05-04 14:10:04,314 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:5671] Deprecated property name '*color'
+2023-05-04 14:10:04,314 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:5690] Deprecated property name '*margin-left'
+2023-05-04 14:10:04,330 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:6662] Deprecated property name '*text-indent'
+2023-05-04 14:10:04,331 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:6677] Deprecated property name '*color'
+2023-05-04 14:10:04,331 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:6696] Deprecated property name '*margin-left'
+2023-05-04 14:10:04,347 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:8722] Deprecated property name '*margin'
+2023-05-04 14:10:04,348 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:8860] Deprecated property name '*white-space'
+2023-05-04 14:10:04,348 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:8906] Deprecated property name '*text-align'
+2023-05-04 14:10:04,348 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:8924] Deprecated property name '*top'
+2023-05-04 14:10:04,352 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:8965] Deprecated property name '*display'
+2023-05-04 14:10:04,362 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:9693] Deprecated property name '*top'
+2023-05-04 14:10:04,363 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:9703] Deprecated property name '*left'
+2023-05-04 14:10:04,363 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:9711] Deprecated property name '*text-align'
+2023-05-04 14:10:04,363 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:9728] Deprecated property name '*margin-top'
+2023-05-04 14:10:04,363 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:9742] Deprecated property name '*vertical-align'
+2023-05-04 14:10:04,364 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:9935] Deprecated property name '*padding'
+2023-05-04 14:10:04,368 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:11035] Deprecated property name '*top'
+2023-05-04 14:10:04,373 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:11844] Deprecated property name '*display'
+2023-05-04 14:10:04,462 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:12435] Deprecated property name '*width'
+2023-05-04 14:10:04,474 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:14232] Deprecated property name '*left'
+2023-05-04 14:10:04,481 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:15279] Deprecated property name '*width'
+2023-05-04 14:10:04,493 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:17441] Deprecated property name '*display'
+2023-05-04 14:10:04,723 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:23617] Deprecated property name '*display'
+2023-05-04 14:10:04,734 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:23777] Deprecated property name '*z-index'
+2023-05-04 14:10:04,735 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:23802] Deprecated property name '*margin-top'
+2023-05-04 14:10:04,744 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:23831] Deprecated property name '*vertical-align'
+2023-05-04 14:10:04,745 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:23854] Deprecated property name '*margin-top'
+2023-05-04 14:10:04,745 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:23870] Deprecated property name '*font-size'
+2023-05-04 14:10:04,755 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:26379] Deprecated property name '*padding-top'
+2023-05-04 14:10:04,761 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:26895] Deprecated property name '*padding-top'
+2023-05-04 14:10:04,764 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:27622] Deprecated property name '*display'
+2023-05-04 14:10:04,771 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:28870] Deprecated property name '*color'
+2023-05-04 14:10:04,771 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:28882] Deprecated property name '*padding-left'
+2023-05-04 14:10:04,783 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:31869] Deprecated property name '*margin-top'
+2023-05-04 14:10:04,784 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:31885] Deprecated property name '*width'
+2023-05-04 14:10:04,784 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:31898] Deprecated property name '*height'
+2023-05-04 14:10:04,785 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:32133] Deprecated property name '*width'
+2023-05-04 14:10:04,873 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:38526] Deprecated property name '*padding-right'
+2023-05-04 14:10:04,874 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:38546] Deprecated property name '*padding-left'
+2023-05-04 14:10:04,883 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:39054] Deprecated property name '*top'
+2023-05-04 14:10:04,892 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:39272] Deprecated property name '*background-position'
+2023-05-04 14:10:04,893 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:39502] Deprecated property name '*background-position'
+2023-05-04 14:10:04,894 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:39579] Deprecated property name '*margin-right'
+2023-05-04 14:10:04,894 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:39595] Deprecated property name '*vertical-align'
+2023-05-04 14:10:04,894 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:39628] Deprecated property name '*margin-right'
+2023-05-04 14:10:04,895 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:39644] Deprecated property name '*vertical-align'
+2023-05-04 14:10:04,895 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:39911] Deprecated property name '*top'
+2023-05-04 14:10:04,896 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:39971] Deprecated property name '*margin'
+2023-05-04 14:10:04,898 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:40167] Deprecated property name '*background-position'
+2023-05-04 14:10:04,905 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:41066] Deprecated property name '*padding-top'
+2023-05-04 14:10:04,908 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:41160] Deprecated property name '*padding-top'
+2023-05-04 14:10:04,913 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:42208] Deprecated property name '*display'
+2023-05-04 14:10:04,914 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:42457] Deprecated property name '*display'
+2023-05-04 14:10:05,077 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:58496] Deprecated property name '*display'
+2023-05-04 14:10:05,080 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:58950] Deprecated property name '*z-index'
+2023-05-04 14:10:05,087 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:60363] Deprecated property name '*min-width'
+2023-05-04 14:10:05,118 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:63969] Deprecated property name '*height'
+2023-05-04 14:10:05,120 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:64045] Deprecated property name '*width'
+2023-05-04 14:10:05,155 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:70316] Deprecated property name '*background-position'
+2023-05-04 14:10:05,163 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:70611] Deprecated property name '*background-position'
+2023-05-04 14:10:05,172 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:71963] Deprecated property name '*background-position'
+2023-05-04 14:10:05,181 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:72763] Deprecated property name '*display'
+2023-05-04 14:10:05,192 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:74244] Deprecated property name '*top'
+2023-05-04 14:10:05,193 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:74326] Deprecated property name '*padding-right'
+2023-05-04 14:10:05,194 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:74386] Deprecated property name '*padding-right'
+2023-05-04 14:10:05,233 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [6:26] Deprecated property name '*z-index'
+2023-05-04 14:10:13,604 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:182261] starting at token ' ' until [1:182268] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "*" "*"
+    at line 1, column 182262.
+
+Was expecting one of:
+
+    ")"
+    "+"
+    ","
+    "-"
+    "/"
+    "="
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:14,788 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:182261] starting at token ' ' until [1:182268] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "*" "*"
+    at line 1, column 182262.
+
+Was expecting one of:
+
+    ")"
+    "+"
+    ","
+    "-"
+    "/"
+    "="
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:15,742 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:436780] starting at token ' ' until [1:436796] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "*" "*"
+    at line 1, column 436781.
+
+Was expecting one of:
+
+    "+"
+    ","
+    "-"
+    "/"
+    ";"
+    "="
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    "}"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <IMPORTANT_SYM>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:15,743 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:436810] starting at token ':' until [1:436843] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "1px" <PX>
+    at line 1, column 436811.
+
+Was expecting one of:
+
+    ":"
+    "host("
+    "host-context("
+    "slotted("
+    <FUNCTION_NTH>
+    <IDENT>
+)
+2023-05-04 14:10:15,744 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:436983] starting at token ' ' until [1:436987] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "*" "*"
+    at line 1, column 436984.
+
+Was expecting one of:
+
+    "+"
+    ","
+    "-"
+    "/"
+    ";"
+    "="
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    "}"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <IMPORTANT_SYM>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:15,746 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:437301] starting at token ' ' until [1:437305] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "*" "*"
+    at line 1, column 437302.
+
+Was expecting one of:
+
+    "+"
+    ","
+    "-"
+    "/"
+    ";"
+    "="
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    "}"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <IMPORTANT_SYM>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:15,746 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:437310] starting at token ':' until [1:437319] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "1" <NUMBER>
+    at line 1, column 437311.
+
+Was expecting one of:
+
+    ":"
+    "host("
+    "host-context("
+    "slotted("
+    <FUNCTION_NTH>
+    <IDENT>
+)
+2023-05-04 14:10:15,751 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:437811] starting at token ' ' until [1:437816] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "*" "*"
+    at line 1, column 437812.
+
+Was expecting one of:
+
+    "+"
+    ","
+    "-"
+    "/"
+    ";"
+    "="
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    "}"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <IMPORTANT_SYM>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:15,754 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:438355] starting at token ' ' until [1:438361] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "*" "*"
+    at line 1, column 438356.
+
+Was expecting one of:
+
+    "+"
+    ","
+    "-"
+    "/"
+    ";"
+    "="
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    "}"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <IMPORTANT_SYM>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:15,869 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:456794] Deprecated property name '*zoom'
+2023-05-04 14:10:16,115 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:485626] starting at token ' ' until [1:485720] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "not(" <FUNCTION>
+    at line 1, column 485627.
+
+Was expecting one of:
+
+    "("
+    "not"
+    <S>
+)
+2023-05-04 14:10:16,123 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:487975] starting at token ' ' until [1:488086] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "not(" <FUNCTION>
+    at line 1, column 487976.
+
+Was expecting one of:
+
+    "("
+    "not"
+    <S>
+)
+2023-05-04 14:10:16,124 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:488199] starting at token ' ' until [1:488329] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "not(" <FUNCTION>
+    at line 1, column 488200.
+
+Was expecting one of:
+
+    "("
+    "not"
+    <S>
+)
+2023-05-04 14:10:16,126 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:488488] starting at token ' ' until [1:488599] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "not(" <FUNCTION>
+    at line 1, column 488489.
+
+Was expecting one of:
+
+    "("
+    "not"
+    <S>
+)
+2023-05-04 14:10:16,180 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:488712] starting at token ' ' until [1:488842] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "not(" <FUNCTION>
+    at line 1, column 488713.
+
+Was expecting one of:
+
+    "("
+    "not"
+    <S>
+)
+2023-05-04 14:10:16,237 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:501266] starting at token ' ' until [1:501272] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "*" "*"
+    at line 1, column 501267.
+
+Was expecting one of:
+
+    "+"
+    ","
+    "-"
+    "/"
+    ";"
+    "="
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    "}"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <IMPORTANT_SYM>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:16,650 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:436780] starting at token ' ' until [1:436796] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "*" "*"
+    at line 1, column 436781.
+
+Was expecting one of:
+
+    "+"
+    ","
+    "-"
+    "/"
+    ";"
+    "="
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    "}"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <IMPORTANT_SYM>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:16,652 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:436810] starting at token ':' until [1:436843] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "1px" <PX>
+    at line 1, column 436811.
+
+Was expecting one of:
+
+    ":"
+    "host("
+    "host-context("
+    "slotted("
+    <FUNCTION_NTH>
+    <IDENT>
+)
+2023-05-04 14:10:16,653 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:436983] starting at token ' ' until [1:436987] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "*" "*"
+    at line 1, column 436984.
+
+Was expecting one of:
+
+    "+"
+    ","
+    "-"
+    "/"
+    ";"
+    "="
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    "}"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <IMPORTANT_SYM>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:16,656 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:437301] starting at token ' ' until [1:437305] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "*" "*"
+    at line 1, column 437302.
+
+Was expecting one of:
+
+    "+"
+    ","
+    "-"
+    "/"
+    ";"
+    "="
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    "}"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <IMPORTANT_SYM>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:16,657 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:437310] starting at token ':' until [1:437319] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "1" <NUMBER>
+    at line 1, column 437311.
+
+Was expecting one of:
+
+    ":"
+    "host("
+    "host-context("
+    "slotted("
+    <FUNCTION_NTH>
+    <IDENT>
+)
+2023-05-04 14:10:16,660 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:437811] starting at token ' ' until [1:437816] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "*" "*"
+    at line 1, column 437812.
+
+Was expecting one of:
+
+    "+"
+    ","
+    "-"
+    "/"
+    ";"
+    "="
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    "}"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <IMPORTANT_SYM>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:16,752 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:456803] Deprecated property name '*zoom'
+2023-05-04 14:10:16,789 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:562923] starting at token ':' until [1:562944] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "(" "("
+    at line 1, column 562924.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:16,791 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:563061] starting at token '-' until [1:563071] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: " " <S>
+    at line 1, column 563062.
+
+Was expecting one of:
+
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <TIME_MS>
+    <TIME_S>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:16,907 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:485635] starting at token ' ' until [1:485729] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "not(" <FUNCTION>
+    at line 1, column 485636.
+
+Was expecting one of:
+
+    "("
+    "not"
+    <S>
+)
+2023-05-04 14:10:16,918 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:487984] starting at token ' ' until [1:488095] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "not(" <FUNCTION>
+    at line 1, column 487985.
+
+Was expecting one of:
+
+    "("
+    "not"
+    <S>
+)
+2023-05-04 14:10:16,920 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:488208] starting at token ' ' until [1:488338] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "not(" <FUNCTION>
+    at line 1, column 488209.
+
+Was expecting one of:
+
+    "("
+    "not"
+    <S>
+)
+2023-05-04 14:10:16,922 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:488497] starting at token ' ' until [1:488608] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "not(" <FUNCTION>
+    at line 1, column 488498.
+
+Was expecting one of:
+
+    "("
+    "not"
+    <S>
+)
+2023-05-04 14:10:16,924 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:488721] starting at token ' ' until [1:488851] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "not(" <FUNCTION>
+    at line 1, column 488722.
+
+Was expecting one of:
+
+    "("
+    "not"
+    <S>
+)
+2023-05-04 14:10:16,965 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:501275] starting at token ' ' until [1:501281] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "*" "*"
+    at line 1, column 501276.
+
+Was expecting one of:
+
+    "+"
+    ","
+    "-"
+    "/"
+    ";"
+    "="
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    "}"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <IMPORTANT_SYM>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:17,339 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:639464] starting at token ' ' until [1:639468] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "*" "*"
+    at line 1, column 639465.
+
+Was expecting one of:
+
+    "+"
+    ","
+    "-"
+    "/"
+    ";"
+    "="
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    "}"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <IMPORTANT_SYM>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:17,413 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:562932] starting at token ':' until [1:562953] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "(" "("
+    at line 1, column 562933.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:17,414 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:563070] starting at token '-' until [1:563080] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: " " <S>
+    at line 1, column 563071.
+
+Was expecting one of:
+
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <TIME_MS>
+    <TIME_S>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:18,134 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:639473] starting at token ' ' until [1:639477] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "*" "*"
+    at line 1, column 639474.
+
+Was expecting one of:
+
+    "+"
+    ","
+    "-"
+    "/"
+    ";"
+    "="
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    "}"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <IMPORTANT_SYM>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:18,148 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:643948] starting at token ' ' until [1:643954] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "*" "*"
+    at line 1, column 643949.
+
+Was expecting one of:
+
+    "+"
+    ","
+    "-"
+    "/"
+    ";"
+    "="
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    "}"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <IMPORTANT_SYM>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:10:59,078 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:14155] Deprecated property name '*display'
+2023-05-04 14:10:59,837 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:29397] Deprecated property name '*z-index'
+2023-05-04 14:10:59,925 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:39330] Deprecated property name '*display'
+2023-05-04 14:10:59,942 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:44712] Deprecated property name '*margin-bottom'
+2023-05-04 14:10:59,950 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:45886] Deprecated property name '*border-right-width'
+2023-05-04 14:10:59,950 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:45910] Deprecated property name '*border-bottom-width'
+2023-05-04 14:10:59,950 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:46084] Deprecated property name '*width'
+2023-05-04 14:10:59,951 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:46095] Deprecated property name '*margin'
+2023-05-04 14:10:59,952 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:46558] Deprecated property name '*z-index'
+2023-05-04 14:10:59,953 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:46817] Deprecated property name '*zoom'
+2023-05-04 14:10:59,958 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:48145] Deprecated property name '*zoom'
+2023-05-04 14:10:59,969 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:49902] Deprecated property name '*border-right-color'
+2023-05-04 14:10:59,970 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:50431] Deprecated property name '*border-left-color'
+2023-05-04 14:11:00,105 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:70382] Deprecated property name '*display'
+2023-05-04 14:11:00,489 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:141627] Deprecated property name '*vertical-align'
+2023-05-04 14:11:00,489 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:141652] Deprecated property name '*margin-top'
+2023-05-04 14:11:00,628 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:165415] Deprecated property name '*overflow'
+2023-05-04 14:11:00,628 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:165432] Deprecated property name '*height'
+2023-05-04 14:11:00,865 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:202554] Deprecated property name '*display'
+2023-05-04 14:11:00,871 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:203854] Deprecated property name '*border-right-width'
+2023-05-04 14:11:00,872 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:203878] Deprecated property name '*border-bottom-width'
+2023-05-04 14:11:00,957 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:215177] Deprecated property name '*margin-left'
+2023-05-04 14:11:01,007 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:225184] Deprecated property name '*top'
+2023-05-04 14:11:01,084 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:240240] Deprecated property name '*top'
+2023-05-04 14:11:01,131 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: ` (0x0060)
+2023-05-04 14:11:01,135 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:249986] Deprecated property name '*vertical-align'
+2023-05-04 14:11:01,137 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:250450] Deprecated property name '*vertical-align'
+2023-05-04 14:11:01,141 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:250603] Deprecated property name '*width'
+2023-05-04 14:11:01,143 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:250840] Deprecated property name '*width'
+2023-05-04 14:11:01,207 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:259248] starting at token '/' until [1:259249] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 1, column 259249.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:11:01,208 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:259250] Deprecated property name '*background-color'
+2023-05-04 14:11:01,210 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:259588] starting at token '/' until [1:259589] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 1, column 259589.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-05-04 14:11:01,211 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:259590] Deprecated property name '*background-color'
+2023-05-04 14:11:01,235 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:265741] Deprecated property name '*margin-bottom'
+2023-05-04 14:11:01,235 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:265760] Deprecated property name '*display'
+2023-05-04 14:11:01,236 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:265814] Deprecated property name '*outline'
+2023-05-04 14:11:01,236 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:265876] Deprecated property name '*display'
+2023-05-04 14:11:01,236 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:265892] Deprecated property name '*zoom'
+2023-05-04 14:11:01,237 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:266054] Deprecated property name '*padding-right'
+2023-05-04 14:11:01,245 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:268402] Deprecated property name '*margin-left'
+2023-05-04 14:11:01,268 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:274873] Deprecated property name '*zoom'
+2023-05-04 14:11:01,269 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:274972] Deprecated property name '*display'
+2023-05-04 14:11:01,269 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:274988] Deprecated property name '*zoom'
+2023-05-04 14:11:01,284 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:278671] Deprecated property name '*display'
+2023-05-04 14:11:01,286 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:279028] Deprecated property name '*padding'
+2023-05-04 14:11:01,330 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:286464] Deprecated property name '*display'
+2023-05-04 14:11:01,334 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:287933] Deprecated property name '*display'
+2023-05-04 14:11:01,336 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:288226] Deprecated property name '*padding'
+2023-05-04 14:11:01,338 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:288775] Deprecated property name '*display'
+2023-05-04 14:11:01,420 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:306522] Deprecated property name '*display'
+2023-05-04 14:11:01,541 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:412784] starting at token ' ' until [1:412907] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "not(" <FUNCTION>
+    at line 1, column 412785.
+
+Was expecting one of:
+
+    "("
+    "not"
+    <S>
+)
+2023-05-04 14:11:14,491 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:1116] Deprecated property name '*display'
+2023-05-04 14:11:14,503 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:1707] Deprecated property name '*width'
+2023-05-04 14:11:14,513 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:3555] Deprecated property name '*display'
+2023-05-04 14:11:17,714 INFO o.a.j.t.JMeterThread: Thread is done: Home Page, Home & Garden Page, Clock Page, Item Detail Page, Add to Watchlisht Function 1-5
+2023-05-04 14:11:17,714 INFO o.a.j.t.JMeterThread: Thread finished: Home Page, Home & Garden Page, Clock Page, Item Detail Page, Add to Watchlisht Function 1-5
+2023-05-04 14:11:19,886 INFO o.a.j.t.JMeterThread: Thread is done: Home Page, Home & Garden Page, Clock Page, Item Detail Page, Add to Watchlisht Function 1-2
+2023-05-04 14:11:19,886 INFO o.a.j.t.JMeterThread: Thread finished: Home Page, Home & Garden Page, Clock Page, Item Detail Page, Add to Watchlisht Function 1-2
+2023-05-04 14:11:24,156 INFO o.a.j.t.JMeterThread: Thread is done: Home Page, Home & Garden Page, Clock Page, Item Detail Page, Add to Watchlisht Function 1-1
+2023-05-04 14:11:24,156 INFO o.a.j.t.JMeterThread: Thread finished: Home Page, Home & Garden Page, Clock Page, Item Detail Page, Add to Watchlisht Function 1-1
+2023-05-04 14:11:28,222 INFO o.a.j.t.JMeterThread: Thread is done: Home Page, Home & Garden Page, Clock Page, Item Detail Page, Add to Watchlisht Function 1-3
+2023-05-04 14:11:28,222 INFO o.a.j.t.JMeterThread: Thread finished: Home Page, Home & Garden Page, Clock Page, Item Detail Page, Add to Watchlisht Function 1-3
+2023-05-04 14:11:29,922 INFO o.a.j.t.JMeterThread: Thread is done: Home Page, Home & Garden Page, Clock Page, Item Detail Page, Add to Watchlisht Function 1-4
+2023-05-04 14:11:29,923 INFO o.a.j.t.JMeterThread: Thread finished: Home Page, Home & Garden Page, Clock Page, Item Detail Page, Add to Watchlisht Function 1-4
+2023-05-04 14:11:29,942 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-05-04 14:11:29,943 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
